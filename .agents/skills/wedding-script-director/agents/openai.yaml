@@ -1,0 +1,13 @@
+interface:
+  display_name: 婚礼台词导演
+  short_description: 从真实故事提炼母题，创作婚礼主持词，并用样稿与反馈持续强化方法
+  default_prompt: 请使用 $wedding-script-director 分析问卷、提炼母题并按确认方向创作；如我要求学习样稿或强化训练，请提炼适用规则并更新现有技能。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
